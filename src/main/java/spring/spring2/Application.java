@@ -16,11 +16,11 @@ public class Application {
         return "Hello World!";
     }
     
-    // @RequestMapping("/world")
-    // @ResponseBody
-    // public String index2() {
-    //     return "Hello World!!!!!!!";
-    // }
+    @RequestMapping("/world")
+    @ResponseBody
+    public String index2() {
+        return "Hello World!!!!!!!";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

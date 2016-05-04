@@ -18,7 +18,7 @@ public class Application {
     
     @RequestMapping("/world")
     @ResponseBody
-    public String index2() {
+    ublic String index2() {
         return "Hello World!!!!!!!";
     }
 

@@ -20,7 +20,6 @@ public class Application {
     @ResponseBody
     public String index2() {
         return "Hello World!!!!!!!";
-        return "dddd";
     }
 
     public static void main(String[] args) {
